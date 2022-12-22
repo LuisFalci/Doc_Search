@@ -15,15 +15,15 @@ class InventarioSumarioDaCamaraMunicipalnoImperioSeeder extends Seeder
 	 */
 
 	const DESCRIPTION_LEVEL_MAP =
-		[
-			'collection' => 1,
-			'fonds' => 2,
-			'section' => 3,
-			'subsection' => 4,
-			'serie' => 5,
-			'subserie' => 6,
-			'item' => 7,
-		];
+	[
+		'collection' => 1,
+		'fonds' => 2,
+		'section' => 3,
+		'subsection' => 4,
+		'serie' => 5,
+		'subserie' => 6,
+		'item' => 7,
+	];
 
 	public function run()
 	{
@@ -903,6 +903,1219 @@ class InventarioSumarioDaCamaraMunicipalnoImperioSeeder extends Seeder
 						'title' => 'ADMINISTRAÇÃO MUNICIPAL',
 						[
 							'subsection-1' => [
+								'title' => 'ASSUNTOS DIVERSOS',
+								[
+									'serie-65' => [
+										'title' => 'DOCUMENTOS referentes a bens da Câmara Municipal de Juiz de Fora',
+										'description' => '',
+										'start_date' => \Carbon\Carbon::parse('01-01-1859'),
+										'end_date' => \Carbon\Carbon::parse('31-12-1888'),
+										[
+											'item' => 154
+										],
+										[
+											'subserie-65.1' => [
+												'title' => 'Documentos referentes a arrendamentos dos bens da Câmara.',
+												'start_date' => \Carbon\Carbon::parse('01-01-1875'),
+												'end_date' => \Carbon\Carbon::parse('31-12-1887'),
+												[
+													'item' => 11
+												]
+											],
+											'subserie-65.2' => [
+												'title' => 'Propostas de arrendamento de bens da Câmara.',
+												'start_date' => \Carbon\Carbon::parse('01-01-1880'),
+												'end_date' => \Carbon\Carbon::parse('31-12-1889'),
+												[
+													'item' => 34
+												]
+											],
+											'subserie-65.3' => [
+												'title' => 'Documentos diversos referentes a bens da Câmara.',
+												'start_date' => \Carbon\Carbon::parse('01-01-1865'),
+												'end_date' => \Carbon\Carbon::parse('31-12-1886'),
+												[
+													'item' => 11
+												]
+											],
+											'subserie-65.4' => [
+												'title' => 'Escritura de doação,permuta,compra e venda de bens da Câmara.',
+												'start_date' => \Carbon\Carbon::parse('01-01-1860'),
+												'end_date' => \Carbon\Carbon::parse('31-12-1888'),
+												[
+													'item' => 45
+												]
+											],
+											'subserie-65.5' => [
+												'title' => 'Documentos referentes a leilões de bens da Câmara.',
+												'start_date' => \Carbon\Carbon::parse('01-01-1859'),
+												'end_date' => \Carbon\Carbon::parse('31-12-1886'),
+												[
+													'item' => 14
+												]
+											],
+											'subserie-65.6' => [
+												'title' => 'Listas de bens da Câmara.',
+												'start_date' => \Carbon\Carbon::parse('01-01-1867'),
+												'end_date' => \Carbon\Carbon::parse('31-12-1878'),
+												[
+													'item' => 4
+												]
+											],
+											'subserie-65.7' => [
+												'title' => 'Requerimentos referentes a compra,venda e permuta de bens da Câmara.',
+												'start_date' => \Carbon\Carbon::parse('01-01-1855'),
+												'end_date' => \Carbon\Carbon::parse('31-12-1889'),
+												[
+													'item' => 35
+												]
+											],
+										]
+									],
+									'serie-66' => [
+										'title' => 'CORRESPONDÊNCIA da Câmara Municipal de Juiz de Fora com Câmaras Municipais',
+										'description' => '',
+										'start_date' => \Carbon\Carbon::parse('01-01-1857'),
+										'end_date' => \Carbon\Carbon::parse('31-12-1889'),
+										[
+											'item' => 29
+										]
+									],
+									'serie-67' => [
+										'title' => 'CORRESPONDÊNCIA da Câmara Municipal de Juiz de Fora sobre assuntos diversos',
+										'description' => '',
+										'start_date' => \Carbon\Carbon::parse('01-01-1859'),
+										'end_date' => \Carbon\Carbon::parse('31-12-1888'),
+										[
+											'item' => 22
+										]
+									],
+									'serie-68' => [
+										'title' => 'EDITAIS da Câmara Municipal de Juiz de Fora',
+										'description' => '',
+										'start_date' => \Carbon\Carbon::parse('01-01-1853'),
+										'end_date' => \Carbon\Carbon::parse('31-12-1889'),
+										[
+											'item' => 58
+										],
+										[
+											'subserie-68.1' => [
+												'title' => 'Editais relativos ao desmembramento de freguesias',
+												'start_date' => \Carbon\Carbon::parse('01-01-1866'),
+												'end_date' => \Carbon\Carbon::parse('31-12-1866'),
+												[
+													'item' => 7
+												]
+											],
+											'subserie-68.2' => [
+												'title' => 'Editais referentes a assuntos diversos.Contém editais que dam publicidade à Lei 2040 de 28 de setembro de 1871',
+												'start_date' => \Carbon\Carbon::parse('01-01-1853'),
+												'end_date' => \Carbon\Carbon::parse('31-12-1889'),
+												[
+													'item' => 51
+												]
+											],
+										]
+									],
+									'serie-69' => [
+										'title' => 'DOCUMENTOS referentes à Exposição Industrial de Juiz de Fora (1886)',
+										'description' => '',
+										'start_date' => \Carbon\Carbon::parse('01-01-1855'),
+										'end_date' => \Carbon\Carbon::parse('31-12-1887'),
+										[
+											'item' => 132
+										],
+										[
+											'subserie-69.1' => [
+												'title' => 'Ofícios expedidos pela Câmara Municipal de Juiz de Fora referentes a Exposição Industrial de 1886',
+												'start_date' => \Carbon\Carbon::parse('01-01-1855'),
+												'end_date' => \Carbon\Carbon::parse('31-12-1886'),
+												[
+													'item' => 27
+												],
+											],
+											'subserie-69.2' => [
+												'title' => 'Ofícios recebidos pela Câmara Municipal de Juiz de Fora referente à Exposição de 1886',
+												'start_date' => \Carbon\Carbon::parse('01-01-1883'),
+												'end_date' => \Carbon\Carbon::parse('31-12-1887'),
+												[
+													'item' => 50
+												],
+											],
+											'subserie-69.3' => [
+												'title' => 'Documentos diversos referentes à Exposição Industrial de 1886',
+												'start_date' => \Carbon\Carbon::parse('01-01-1885'),
+												'end_date' => \Carbon\Carbon::parse('31-12-1886'),
+												[
+													'item' => 11
+												],
+											],
+										]
+									],
+									'serie-70' => [
+										'title' => 'DOCUMENTOS referentes a diversas exposições.',
+										'description' => 'Contém ofícios recebidos pela Câmara de Juiz de Fora provenientes da Côrte,da Província e de Petrópolis referentes à diversas exposições:de produtos naturais e industriais,de produtos sul-americanos em Berlim,etc e outros documentos.',
+										'start_date' => \Carbon\Carbon::parse('01-01-1861'),
+										'end_date' => \Carbon\Carbon::parse('31-12-1888'),
+										[
+											'item' => 40
+										]
+									],
+									'serie-71' => [
+										'title' => 'DOCUMENTOS referentes à instrução pública.',
+										'description' => 'Contém correspondência sobre novos métodos de ensino e correspondência entre a Câmara de Juiz de Fora e professores públicos,Delegado de Instrução Pública,Inspetor do Círculo Literário,Inspetor Municipal de Instrução,Secretário da Câmara e particulares.',
+										'start_date' => \Carbon\Carbon::parse('01-01-1854'),
+										'end_date' => \Carbon\Carbon::parse('31-12-1889'),
+										[
+											'item' => 29
+										]
+									],
+									'serie-72' => [
+										'title' => 'DOCUMENTOS referentes à Loteria Municipal.',
+										'description' => '',
+										'start_date' => \Carbon\Carbon::parse('01-01-1886'),
+										'end_date' => \Carbon\Carbon::parse('31-12-1888'),
+										[
+											'item' => 43
+										],
+										[
+											'subserie-72.1' => [
+												'title' => 'Documentos da Câmara de Juiz de Fora referentes à loteria municipal.',
+												'start_date' => \Carbon\Carbon::parse('01-01-1886'),
+												'end_date' => \Carbon\Carbon::parse('31-12-1888'),
+												[
+													'item' => 23
+												],
+											],
+											'subserie-72.2' => [
+												'title' => 'Documentos referentes aos responsáveis e funcionários da loteria municipal.',
+												'start_date' => \Carbon\Carbon::parse('01-01-1886'),
+												'end_date' => \Carbon\Carbon::parse('31-12-1888'),
+												[
+													'item' => 23
+												],
+											],
+										]
+									],
+									'serie-73' => [
+										'title' => 'DOCUMENTOS referentes à saúde pública em Juiz de Fora.',
+										'description' => '',
+										'start_date' => \Carbon\Carbon::parse('01-01-1855'),
+										'end_date' => \Carbon\Carbon::parse('31-12-1889'),
+										[
+											'item' => 153
+										],
+										[
+											'subserie-73.1' => [
+												'title' => 'Atestados médicos.',
+												'start_date' => \Carbon\Carbon::parse('01-01-1862'),
+												'end_date' => \Carbon\Carbon::parse('31-12-1878'),
+												[
+													'item' => 8
+												],
+											],
+											'subserie-73.2' => [
+												'title' => 'Documentos referente à epidemia de cólera.',
+												'start_date' => \Carbon\Carbon::parse('01-01-1855'),
+												'end_date' => \Carbon\Carbon::parse('31-12-1856'),
+												[
+													'item' => 20
+												],
+											],
+											'subserie-73.3' => [
+												'title' => 'Documentos diversos relativos à saúde pública.',
+												'start_date' => \Carbon\Carbon::parse('01-01-1855'),
+												'end_date' => \Carbon\Carbon::parse('31-12-1889'),
+												[
+													'item' => 35
+												],
+											],
+											'subserie-73.4' => [
+												'title' => 'Documentos referentes ao pagamento de contas de hospital.',
+												'start_date' => \Carbon\Carbon::parse('01-01-1855'),
+												'end_date' => \Carbon\Carbon::parse('31-12-1856'),
+												[
+													'item' => 14
+												],
+											],
+											'subserie-73.5' => [
+												'title' => 'Documentos referentes ao fornecimento de medicamentos à pobres e indigentes.',
+												'start_date' => \Carbon\Carbon::parse('01-01-1869'),
+												'end_date' => \Carbon\Carbon::parse('31-12-1887'),
+												[
+													'item' => 27
+												],
+											],
+											'subserie-73.6' => [
+												'title' => 'Documentos referentes aos lazaretos.',
+												'start_date' => \Carbon\Carbon::parse('01-01-1871'),
+												'end_date' => \Carbon\Carbon::parse('31-12-1889'),
+												[
+													'item' => 7
+												],
+											],
+											'subserie-73.7' => [
+												'title' => 'Documentos referentes ao serviço de vacinação.',
+												'start_date' => \Carbon\Carbon::parse('01-01-1862'),
+												'end_date' => \Carbon\Carbon::parse('31-12-1889'),
+												[
+													'item' => 21
+												],
+											],
+											'subserie-73.8' => [
+												'title' => 'Correspondência enviada à Câmara de Juiz de Fora pelo médico encarregado do tratamento dos portadores de varíola do distrito de Vargem Grande.',
+												'start_date' => \Carbon\Carbon::parse('01-01-1889'),
+												'end_date' => \Carbon\Carbon::parse('31-12-1889'),
+												[
+													'item' => 13
+												],
+											],
+											'subserie-73.9' => [
+												'title' => 'Requerimentos pedindo providências sobre varíola em Juiz de Fora.',
+												'start_date' => \Carbon\Carbon::parse('01-01-1885'),
+												'end_date' => \Carbon\Carbon::parse('31-12-1889'),
+												[
+													'item' => 8
+												],
+											],
+										]
+									],
+								]
+							],
+							'subsection-2' => [
+								'title' => 'FINANÇAS DO MUNICÍPIO',
+								[
+									'serie-74' => [
+										'title' => 'DOCUMENTOS referentes aos lançamentos contábeis dos anos financeiros.',
+										'description' => 'Esta série está dividida em subséries contendo a documentação referente a cada ano financeiro.A notação de cada subsérie se faz através da indicação do número da série e dos números referentes ao ano financeiro.A composição das sub-séries está contida na primeira sub-série,para consulta do pesquisador,não sendo reproduzida neste inventário.
+										O ano financeiro está dividido,até 1880,nos seguintes trimestres:out./dez.;jan./mar.;abr./jun.;jul./set.;.A partir de 1881 o ano financeiro começa em janeiro e termina em dezembro do mesmo ano civil.O ano financeiro de 1853,ano da instalação da Câmara,não tem o primeiro trimestre (out./dez.) e o segundo trimestre (jan./mar.) que pertence ao ano civil anterior.O ano financeiro iniciou-se no terceiro trimestre (abr./jun.).
+										Os documentos arranjados dentro de cada sub-série constam de três grupos:
+											 1)Diários,onde são feitos os lançamentos de receita e despesa da Câmara.
+											 2)Recibos,que estão soltos ou agrupados em livros.
+											 3)Documentos  diversos,que contêm documentos referentes ao ano financeiro.
+										Nem todos os anos financeiros possuem os três grupos de documentos que certamente se perderam com o tempo.',
+										'start_date' => \Carbon\Carbon::parse('01-01-1853'),
+										'end_date' => \Carbon\Carbon::parse('31-12-1889'),
+										[
+											'item' => 2797
+										],
+									],
+									'serie-75' => [
+										'title' => 'DOCUMENTOS referentes ao pagamento de custas judiciais devidas pela Câmara de Juiz de Fora.',
+										'description' => '',
+										'start_date' => \Carbon\Carbon::parse('01-01-1863'),
+										'end_date' => \Carbon\Carbon::parse('31-12-1889'),
+										[
+											'item' => 281
+										],
+										[
+											'subserie-75.1' => [
+												'title' => 'Documentos referentes ao pagamento de custas judiciais feito por intermédio de apólices.',
+												'start_date' => \Carbon\Carbon::parse('01-01-1884'),
+												'end_date' => \Carbon\Carbon::parse('31-12-1889'),
+												[
+													'item' => 233
+												],
+											],
+											'subserie-75.2' => [
+												'title' => 'Documentos referentes ao pagamento de custas judiciais feito em dinheiro.',
+												'start_date' => \Carbon\Carbon::parse('01-01-1887'),
+												'end_date' => \Carbon\Carbon::parse('31-12-1888'),
+												[
+													'item' => 6
+												],
+											],
+											'subserie-75.3' => [
+												'title' => 'Documentos referentes à solicitação de pagamento de custas judiciais.Não há comprovação se o pagamento foi efetuado.',
+												'start_date' => \Carbon\Carbon::parse('01-01-1863'),
+												'end_date' => \Carbon\Carbon::parse('31-12-1889'),
+												[
+													'item' => 41
+												],
+											],
+											'subserie-75.4' => [
+												'title' => 'Documentos referentes às custas de processos de multas contra jurados.',
+												'start_date' => \Carbon\Carbon::parse('01-01-1888'),
+												'end_date' => \Carbon\Carbon::parse('31-12-1888'),
+												[
+													'item' => 1
+												],
+											],
+										]
+									],
+									'serie-76' => [
+										'title' => 'DOCUMENTOS diversos referentes às finanças da Câmara de Juiz de Fora.',
+										'description' => 'Contém documentos de pagamentos diversos à Câmara e resumos trimestrais da receita e despesa,sem data.',
+										'start_date' => \Carbon\Carbon::parse('01-01-1854'),
+										'end_date' => \Carbon\Carbon::parse('31-12-1888'),
+										[
+											'item' => 53
+										],
+									],
+									'serie-77' => [
+										'title' => 'DOCUMENTOS referentes à dívida pública do município de Juiz de Fora.',
+										'description' => '',
+										'start_date' => \Carbon\Carbon::parse('01-01-1863'),
+										'end_date' => \Carbon\Carbon::parse('31-12-1889'),
+										[
+											'item' => 108
+										],
+										[
+											'subserie-77.1' => [
+												'title' => 'Documentos diversos referentes à divida pública municipal.Contém uma apólice da dívida.',
+												'start_date' => \Carbon\Carbon::parse('01-01-1863'),
+												'end_date' => \Carbon\Carbon::parse('31-12-1889'),
+												[
+													'item' => 7
+												],
+											],
+											'subserie-77.2' => [
+												'title' => 'Documentos referentes a juros sobre apólices dos empréstimos municipais.',
+												'start_date' => \Carbon\Carbon::parse('01-01-1885'),
+												'end_date' => \Carbon\Carbon::parse('31-12-1889'),
+												[
+													'item' => 3
+												],
+											],
+											'subserie-77.3' => [
+												'title' => 'Documentos referentes à transferência de apólices da dívida pública municipal.',
+												'start_date' => \Carbon\Carbon::parse('01-01-1886'),
+												'end_date' => \Carbon\Carbon::parse('31-12-1889'),
+												[
+													'item' => 19
+												],
+											],
+											'subserie-77.4' => [
+												'title' => 'Procurações referentes à venda,subscrição e recebimento de juros e amortização do empréstimo municipal.',
+												'start_date' => \Carbon\Carbon::parse('01-01-1875'),
+												'end_date' => \Carbon\Carbon::parse('31-12-1889'),
+												[
+													'item' => 26
+												],
+											],
+											'subserie-77.5' => [
+												'title' => 'Relações nominais de portadores de apólices da dívida pública municipal.',
+												'start_date' => \Carbon\Carbon::parse('01-01-1885'),
+												'end_date' => \Carbon\Carbon::parse('31-12-1890'),
+												[
+													'item' => 15
+												],
+											],
+										]
+									],
+									'serie-78' => [
+										'title' => 'DOCUMENTOS referentes ao pagamento de impostos municipais.',
+										'description' => '',
+										'start_date' => \Carbon\Carbon::parse('01-01-1855'),
+										'end_date' => \Carbon\Carbon::parse('31-12-1880'),
+										[
+											'item' => 66
+										],
+										[
+											'subserie-78.1' => [
+												'title' => 'Documentos referentes ao pagamento de impostos municipais.',
+												'start_date' => \Carbon\Carbon::parse('01-01-1855'),
+												'end_date' => \Carbon\Carbon::parse('31-12-1880'),
+												[
+													'item' => 45
+												],
+											],
+											'subserie-78.2' => [
+												'title' => 'Cadernos de registros de talões de pagamento de impostos sobre casas de negócios.Contém uma relação das casas de negócios e oficinas de Juiz de Fora em 1870.Este imposto era controlado pela Mesa das Rendas Provinciais.',
+												'start_date' => \Carbon\Carbon::parse('01-01-1874'),
+												'end_date' => \Carbon\Carbon::parse('31-12-1875'),
+												[
+													'item' => 21
+												],
+											],
+										]
+									],
+									'serie-79' => [
+										'title' => 'DOCUMENTOS referentes a pagamentos diversos efetuados pela Câmara de Juiz de Fora.',
+										'description' => '',
+										'start_date' => \Carbon\Carbon::parse('01-01-1864'),
+										'end_date' => \Carbon\Carbon::parse('31-12-1889'),
+										[
+											'item' => 16
+										],
+									],
+									'serie-80' => [
+										'title' => 'DOCUMENTOS referentes ao pagamento de serviços de alargamento do Rio Paraibuna,em 1889.',
+										'description' => '',
+										'start_date' => \Carbon\Carbon::parse('01-01-1889'),
+										'end_date' => \Carbon\Carbon::parse('31-12-1889'),
+										[
+											'item' => 9
+										],
+									],
+								]
+							],
+							'subsection-3' => [
+								'title' => 'FISCAL E AGENTE FISCAL',
+								[
+									'serie-81' => [
+										'title' => 'DOCUMENTOS referentes ao cargo de Fiscal da Câmara de Juiz de Fora.',
+										'description' => '',
+										'start_date' => \Carbon\Carbon::parse('01-01-1853'),
+										'end_date' => \Carbon\Carbon::parse('31-12-1889'),
+										[
+											'item' => 76
+										],
+										[
+											'subserie-81.1' => [
+												'title' => 'Documentos diversos referentes ao cargo de Fiscal.Referem-se a nomeações de posse,demissão,licença,substituição e justificativas de ausências.',
+												'start_date' => \Carbon\Carbon::parse('01-01-1853'),
+												'end_date' => \Carbon\Carbon::parse('31-12-1889'),
+												[
+													'item' => 54
+												],
+											],
+											'subserie-81.2' => [
+												'title' => 'Procurações para tomar posse do cargo Fiscal.',
+												'start_date' => \Carbon\Carbon::parse('01-01-1854'),
+												'end_date' => \Carbon\Carbon::parse('31-12-1888'),
+												[
+													'item' => 31
+												],
+											],
+										]
+									],
+									'serie-82' => [
+										'title' => 'CORRESPONDÊNCIA enviada à Câmara de Juiz de Fora por Agentes Fiscais de diversos distritos de município de Juiz de Fora.',
+										'description' => 'Referente aos distritos de Chácara (1878-1889,20 ítens,incluindo uma carta recebida pelo Agente Fiscal);Chapéu d\'Uvas (1853-1889,40 ítens);Piau (1866-1868,4 ítens);Rosário (1870-1889,16 ítens);Santana do Deserto (1884-1889,5 ítens);Santa Bárbara do Monte Verde (1868-1869,7 ítens);Santa Rita do Jacutinga (1856,1 ítem);São Francisco de Paula (1853-1880,14 ítens);São José do Rio Preto (1854-1888,25 ítens);São Pedro de Alcântara (1859-1888,20 ítens);Sarandy (1859-1887,29 ítens);Simão Pereira (185...,1 ítem);Vargem Grande (1861-1889,24 ítens).',
+										'start_date' => \Carbon\Carbon::parse('01-01-1853'),
+										'end_date' => \Carbon\Carbon::parse('31-12-1889'),
+										[
+											'item' => 204
+										],
+									],
+									'serie-83' => [
+										'title' => 'DOCUMENTOS diversos do Fiscal da Câmara de Juiz de Fora.',
+										'description' => '',
+										'start_date' => \Carbon\Carbon::parse('01-01-1858'),
+										'end_date' => \Carbon\Carbon::parse('31-12-1889'),
+										[
+											'item' => 14
+										],
+									],
+									'serie-84' => [
+										'title' => 'CORRESPONDÊNCIA recebida pelos Fiscais da Câmara referente a assuntos diversos.',
+										'description' => 'A correspondência foi enviada pelo Presidente e Secretário da Câmara de Juiz de Fora,Agentes Fiscais de distritos e particulares.',
+										'start_date' => \Carbon\Carbon::parse('01-01-1853'),
+										'end_date' => \Carbon\Carbon::parse('31-12-1889'),
+										[
+											'item' => 34
+										],
+									],
+									'serie-85' => [
+										'title' => 'CORRESPONDÊNCIA enviada à Câmara por Fiscais,referentes a diversos assuntos.',
+										'description' => 'Nada consta sobre os anos de 1962,65,66,74,75,80 e 1882.',
+										'start_date' => \Carbon\Carbon::parse('01-01-1856'),
+										'end_date' => \Carbon\Carbon::parse('31-12-1889'),
+										[
+											'item' => 93
+										],
+									],
+									'serie-86' => [
+										'title' => 'CORRESPONDÊNCIA enviada à Câmara de Juiz de Fora pelo Fiscal referente a ferrovia (Estrada de Ferro D. Pedro II) e bondes (Companhia Ferro-Carril de Juiz de Fora).',
+										'description' => '',
+										'start_date' => \Carbon\Carbon::parse('01-01-1882'),
+										'end_date' => \Carbon\Carbon::parse('31-12-1885'),
+										[
+											'item' => 11
+										],
+									],
+									'serie-87' => [
+										'title' => 'DOCUMENTOS do Fiscal da Câmara de Juiz de Fora referentes a impostos municipais.',
+										'description' => 'Contém relações de pessoas sujeitas a pagamento de impostos.',
+										'start_date' => \Carbon\Carbon::parse('01-01-1864'),
+										'end_date' => \Carbon\Carbon::parse('31-12-1884'),
+										[
+											'item' => 7
+										],
+									],
+									'serie-88' => [
+										'title' => 'CORRESPONDÊNCIA enviada à Camara de Juiz de Fora por Fiscais,referente a obras e serviços executados.',
+										'description' => '',
+										'start_date' => \Carbon\Carbon::parse('01-01-1854'),
+										'end_date' => \Carbon\Carbon::parse('31-12-1889'),
+										[
+											'item' => 121
+										],
+									],
+									'serie-89' => [
+										'title' => 'CORRESPONDÊNCIA enviada à Câmara de Juiz de Fora pelo Fiscal referente a órgãos municipais:Jardim Público e Matadouro.',
+										'description' => '',
+										'start_date' => \Carbon\Carbon::parse('01-01-1863'),
+										'end_date' => \Carbon\Carbon::parse('31-12-1889'),
+										[
+											'item' => 19
+										],
+									],
+									'serie-90' => [
+										'title' => 'DOCUMENTOS do Fiscal da Câmara de Juiz de Fora referentes a posturas municipais.',
+										'description' => 'Contém autos de infração referentes a multas por desrespeito às posturas e editais do Fiscal referentes a posturas.',
+										'start_date' => \Carbon\Carbon::parse('01-01-1859'),
+										'end_date' => \Carbon\Carbon::parse('31-12-1881'),
+										[
+											'item' => 21
+										],
+									],
+									'serie-91' => [
+										'title' => 'DOCUMENTOS do Fiscal da Câmara de Juiz de Fora referentes a serviços públicos:água,iluminação e limpeza pública.',
+										'description' => '',
+										'start_date' => \Carbon\Carbon::parse('01-01-1853'),
+										'end_date' => \Carbon\Carbon::parse('31-12-1889'),
+										[
+											'item' => 61
+										],
+									],
+									'serie-92' => [
+										'title' => 'RELATÓRIOS apresentados à Câmara de Juiz de Fora por Fiscais,referentes à diversos serviços executados.',
+										'description' => 'Contém mapas demonstrativos de infrações de posturas.Faltam relatórios dos anos de 1858,59,60 e 1884.',
+										'start_date' => \Carbon\Carbon::parse('01-01-1854'),
+										'end_date' => \Carbon\Carbon::parse('31-12-1888'),
+										[
+											'item' => 191
+										],
+									],
+								]
+							],
+							'subsection-4' => [
+								'title' => 'FUNCIONÁRIOS DIVERSOS',
+								[
+									'serie-93' => [
+										'title' => 'CORRESPONDÊNCIA enviada por advogados à Câmara de Juiz de Fora sobre assuntos diversos.',
+										'description' => 'Os advogados estão a serviço da Câmara.',
+										'start_date' => \Carbon\Carbon::parse('01-01-1863'),
+										'end_date' => \Carbon\Carbon::parse('31-12-1889'),
+										[
+											'item' => 18
+										],
+									],
+									'serie-94' => [
+										'title' => 'DOCUMENTOS referentes aos alinhadores da Câmara de Juiz de Fora.',
+										'description' => 'Contém correspondência entre alinhadores e a Câmara,orçamentos feitos pelos alinhadores,nomeações de alinhadores,memorial de plantas,uma carta do Fiscal da Câmara sobre orçamento,etc.',
+										'start_date' => \Carbon\Carbon::parse('01-01-1865'),
+										'end_date' => \Carbon\Carbon::parse('31-12-1889'),
+										[
+											'item' => 80
+										],
+									],
+									'serie-95' => [
+										'title' => 'CORRESPONDÊNCIA expedida pelo Conservador de Águas ao Presidente da Câmara de Juiz de Fora.',
+										'description' => 'Contém correspondência,orçamentos,nomeações,etc.Algumas cartas estão assinadas pelo conservador THOMAS J. WOOD como conservador de obras e fiscal de obras e empreiteiras das obras de abastecimento de águas.
+										Contém cartas do engenheiro Fiscal das obras de abastecimento de água,JOSUÉ QUEIRÓS e do Inspetor de Águas.',
+										'start_date' => \Carbon\Carbon::parse('01-01-1885'),
+										'end_date' => \Carbon\Carbon::parse('31-12-1889'),
+										[
+											'item' => 61
+										],
+									],
+									'serie-96' => [
+										'title' => 'CORRESPONDÊNCIA enviada por engenheiros à Câmara de Juiz de Fora.',
+										'description' => '',
+										'start_date' => \Carbon\Carbon::parse('01-01-1867'),
+										'end_date' => \Carbon\Carbon::parse('31-12-1886'),
+										[
+											'item' => 22
+										],
+									],
+									'serie-97' => [
+										'title' => 'DOCUMENTOS do estafeta\caminheiro da Câmara,sobre assuntos diversos.',
+										'description' => '',
+										'start_date' => \Carbon\Carbon::parse('01-01-1857'),
+										'end_date' => \Carbon\Carbon::parse('31-12-1887'),
+										[
+											'item' => 21
+										],
+									],
+									'serie-98' => [
+										'title' => 'DOCUMENTOS referentes ao Porteiro da Câmara de Juiz de Fora.',
+										'description' => 'Contém correspondência enviada ao Presidente da Câmara e editais do Presidente da Câmara.',
+										'start_date' => \Carbon\Carbon::parse('01-01-1885'),
+										'end_date' => \Carbon\Carbon::parse('31-12-1886'),
+										[
+											'item' => 25
+										],
+									],
+									'serie-99' => [
+										'title' => 'DOCUMENTOS referentes a diversos funcionários da Câmara de Juiz de Fora.',
+										'description' => '',
+										'start_date' => \Carbon\Carbon::parse('01-01-1856'),
+										'end_date' => \Carbon\Carbon::parse('31-12-1886'),
+										[
+											'item' => 91
+										],
+										[
+											'subserie-99.1' => [
+												'title' => 'Livro contendo termos de juramentos de cargos de funcionários de Câmara de Juiz de Fora.',
+												'start_date' => \Carbon\Carbon::parse('01-01-1874'),
+												'end_date' => \Carbon\Carbon::parse('31-12-1876'),
+												[
+													'item' => 6
+												],
+											],
+											'subserie-99.2' => [
+												'title' => 'Procurações para tomar posse de cargos públicos perante a Câmara de Juiz de Fora.Contém 3 procurações com outras finalidades,passadas na Câmara.',
+												'start_date' => \Carbon\Carbon::parse('01-01-1854'),
+												'end_date' => \Carbon\Carbon::parse('31-12-1889'),
+												[
+													'item' => 13
+												],
+											],
+											'subserie-99.3' => [
+												'title' => 'Requerimentos solicitando nomeações para cargos municipais,especialmente Fiscal,Porteiro,Estafeta,administrador da Praça do Mercado,Curral do Conselho e Chafariz,Cocheiro ou Condutor de carroças e outros.Contém 3 nomeações de Guarda Fiscal.',
+												'start_date' => \Carbon\Carbon::parse('01-01-1856'),
+												'end_date' => \Carbon\Carbon::parse('31-12-1889'),
+												[
+													'item' => 91
+												],
+											],
+											'subserie-99.4' => [
+												'title' => 'Documentos de funcionários diversos:Conservador do Jardim Municipal,Administrador da Praça do Mercado e Curral do Conselho e Chafariz.',
+												'start_date' => \Carbon\Carbon::parse('01-01-1887'),
+												'end_date' => \Carbon\Carbon::parse('31-12-1887'),
+												[
+													'item' => 3
+												],
+											],
+										]
+									],
+								]
+							],
+							'subsection-5' => [
+								'title' => 'OBRAS E SERVIÇOS PÚBLICOS',
+								[
+									'serie-100' => [
+										'title' => 'DOCUMENTOS referentes ao serviço de abastecimentode água de Juiz de Fora.',
+										'description' => 'Contém cartas referentes à canalização de córregos,consertos em esgotos e no reservatório de água,cartas de arrematação,orçamentos e propostas.',
+										'start_date' => \Carbon\Carbon::parse('01-01-1858'),
+										'end_date' => \Carbon\Carbon::parse('31-12-1889'),
+										[
+											'item' => 80,
+										],
+									],
+									'serie-101' => [
+										'title' => 'DOCUMENTOS referentes às obras de sistema de abastecimento de água de Juiz de Fora.',
+										'description' => '',
+										'start_date' => \Carbon\Carbon::parse('01-01-1880'),
+										'end_date' => \Carbon\Carbon::parse('31-12-1889'),
+										[
+											'item' => 140
+										],
+										[
+											'subserie-101.1' => [
+												'title' => 'Documento diversos referentes ao sistema de abastecimento de água de Juiz de Fora.',
+												'start_date' => \Carbon\Carbon::parse('01-01-1886'),
+												'end_date' => \Carbon\Carbon::parse('31-12-1887'),
+												[
+													'item' => 18
+												],
+											],
+											'subserie-101.2' => [
+												'title' => 'Correspondência do empreiteiro das obras de abastecimento de água de Juiz de Fora,THOMAS J. WOOD.',
+												'start_date' => \Carbon\Carbon::parse('01-01-1883'),
+												'end_date' => \Carbon\Carbon::parse('31-12-1887'),
+												[
+													'item' => 53
+												],
+											],
+											'subserie-101.3' => [
+												'title' => 'Correspondência do engenheiro fiscal e do fiscal das obras de abastecimento de água de Juiz de Fora.',
+												'start_date' => \Carbon\Carbon::parse('01-01-1886'),
+												'end_date' => \Carbon\Carbon::parse('31-12-1887'),
+												[
+													'item' => 9
+												],
+											],
+											'subserie-101.4' => [
+												'title' => 'Correspondência do Banco do Brasil e de comissários à Câmara de Juiz de Fora,referente ao pagamento e remessa de material para o serviço das obras de abastecimento de água.',
+												'start_date' => \Carbon\Carbon::parse('01-01-1885'),
+												'end_date' => \Carbon\Carbon::parse('31-12-1887'),
+												[
+													'item' => 27
+												],
+											],
+											'subserie-101.5' => [
+												'title' => 'Documentos contendo estudos e projetos sobre o abastecimento de águas e esgotos de Juiz de Fora.',
+												'start_date' => \Carbon\Carbon::parse('01-01-1885'),
+												'end_date' => \Carbon\Carbon::parse('31-12-1889'),
+												[
+													'item' => 5
+												],
+											],
+											'subserie-101.6' => [
+												'title' => 'Propostas aceitas e recusadas,apresentadas à Câmara,referente ao abastecimento de água.
+												Contém a proposta de THOMAS J. WOOD,que foi aceita.',
+												'start_date' => \Carbon\Carbon::parse('01-01-1880'),
+												'end_date' => \Carbon\Carbon::parse('31-12-1884'),
+												[
+													'item' => 28
+												],
+											],
+										]
+									],
+									'serie-102' => [
+										'title' => 'DOCUMENTOS referentes à construção e reforma de bueiros,canais e valetas em Juiz de Fora.',
+										'description' => '',
+										'start_date' => \Carbon\Carbon::parse('01-01-1857'),
+										'end_date' => \Carbon\Carbon::parse('31-12-1889'),
+										[
+											'item' => 115
+										],
+										[
+											'subserie-102.1' => [
+												'title' => 'Correspondência do arrematante dos serviços de construção e reforma de bueiros,canais e valetas.Contém outros documentos referentes aos serviços.',
+												'start_date' => \Carbon\Carbon::parse('01-01-1871'),
+												'end_date' => \Carbon\Carbon::parse('31-12-1887'),
+												[
+													'item' => 22
+												],
+											],
+											'subserie-102.2' => [
+												'title' => 'Documentos referentes a contratos para a execução dos serviços.',
+												'start_date' => \Carbon\Carbon::parse('01-01-1857'),
+												'end_date' => \Carbon\Carbon::parse('31-12-1882'),
+												[
+													'item' => 4
+												],
+											],
+											'subserie-102.3' => [
+												'title' => 'Documentos diversos referentes aos serviços de construção e reforma de bueiros,canais e valetas em Juiz de Fora.Contém editais,procurações,pareceres e documentos de pagamento dos direitos de arrematação.',
+												'start_date' => \Carbon\Carbon::parse('01-01-1858'),
+												'end_date' => \Carbon\Carbon::parse('31-12-1888'),
+												[
+													'item' => 13
+												],
+											],
+											'subserie-102.4' => [
+												'title' => 'Documentos referentes a orçamentos para os serviços de construção e reforma de bueiros...',
+												'start_date' => \Carbon\Carbon::parse('01-01-1861'),
+												'end_date' => \Carbon\Carbon::parse('31-12-1886'),
+												[
+													'item' => 16
+												],
+											],
+											'subserie-102.5' => [
+												'title' => 'Documentos contendo propostas (aceitas,recusadas e sem definição)para os serviços de construção e reformas de bueiros...',
+												'start_date' => \Carbon\Carbon::parse('01-01-1858'),
+												'end_date' => \Carbon\Carbon::parse('31-12-1889'),
+												[
+													'item' => 56
+												],
+											],
+										]
+									],
+									'serie-103' => [
+										'title' => 'DOCUMENTOS referentes à obras de construção e reforma da cadeia pública de Juiz de Fora.',
+										'description' => 'Contém orçamento,propostas de arrematação,contratos e cartas do arrematante à Câmara.',
+										'start_date' => \Carbon\Carbon::parse('01-01-1857'),
+										'end_date' => \Carbon\Carbon::parse('31-12-1889'),
+										[
+											'item' => 24
+										],
+									],
+									'serie-104' => [
+										'title' => 'DOCUMENTOS referentes à construção do Cemitério público de Juiz de Fora.',
+										'description' => '',
+										'start_date' => \Carbon\Carbon::parse('01-01-1863'),
+										'end_date' => \Carbon\Carbon::parse('31-12-1873'),
+										[
+											'item' => 16
+										],
+									],
+									'serie-105' => [
+										'title' => 'DOCUMENTOS referentes a obras de melhoria e conservação de estradas.',
+										'description' => '',
+										'start_date' => \Carbon\Carbon::parse('01-01-1857'),
+										'end_date' => \Carbon\Carbon::parse('31-12-1874'),
+										[
+											'item' => 13
+										],
+									],
+									'serie-106' => [
+										'title' => 'DOCUMENTOS referentes às obras de conserto do prédio do Fórum da cidade de Juiz de Fora.',
+										'description' => '',
+										'start_date' => \Carbon\Carbon::parse('01-01-1880'),
+										'end_date' => \Carbon\Carbon::parse('31-12-1885'),
+										[
+											'item' => 8
+										],
+									],
+									'serie-107' => [
+										'title' => 'DOCUMENTOS referentes às obras de iluminação pública da cidade de Juiz de Fora.',
+										'description' => '',
+										'start_date' => \Carbon\Carbon::parse('01-01-1872'),
+										'end_date' => \Carbon\Carbon::parse('31-12-1889'),
+										[
+											'item' => 95
+										],
+										[
+											'subserie-107.1' => [
+												'title' => 'Documentos referentes a arrematação do serviço de iluminação pública de Juiz de Fora.',
+												'start_date' => \Carbon\Carbon::parse('01-01-1872'),
+												'end_date' => \Carbon\Carbon::parse('31-12-1889'),
+												[
+													'item' => 23
+												],
+											],
+											'subserie-107.2' => [
+												'title' => 'Documentos contendo propostas (aceitas,recusadas e sem definição) apresentadas à Câmara referentes à iluminação pública.',
+												'start_date' => \Carbon\Carbon::parse('01-01-1873'),
+												'end_date' => \Carbon\Carbon::parse('31-12-1889'),
+												[
+													'item' => 72
+												],
+											],
+										]
+									],
+									'serie-108' => [
+										'title' => 'DOCUMENTOS referentes à arrematação de obras de construçaõ e reforma do Matadouro Público.
+										Contém documentos referentes a obras no Curral do Conselho.',
+										'description' => '',
+										'start_date' => \Carbon\Carbon::parse('01-01-1863'),
+										'end_date' => \Carbon\Carbon::parse('31-12-1889'),
+										[
+											'item' => 25
+										],
+									],
+									'serie-109' => [
+										'title' => 'DOCUMENTOS referentes a obras de conserto e conservação do Jardim Municipal e Praça do Mercado.',
+										'description' => '',
+										'start_date' => \Carbon\Carbon::parse('01-01-1875'),
+										'end_date' => \Carbon\Carbon::parse('31-12-1886'),
+										[
+											'item' => 20
+										],
+									],
+									'serie-110' => [
+										'title' => 'DOCUMENTOS referentes à construção e reforma de passeios públicos.',
+										'description' => '',
+										'start_date' => \Carbon\Carbon::parse('01-01-1887'),
+										'end_date' => \Carbon\Carbon::parse('31-12-1888'),
+										[
+											'item' => 13
+										],
+									],
+									'serie-111' => [
+										'title' => 'DOCUMENTOS referentes ao levantamento da planta cadastral de Juiz de Fora.',
+										'description' => '',
+										'start_date' => \Carbon\Carbon::parse('01-01-1869'),
+										'end_date' => \Carbon\Carbon::parse('31-12-1884'),
+										[
+											'item' => 21
+										],
+									],
+									'serie-112' => [
+										'title' => 'DOCUMENTOS referentes a obra do construção de pontes e pontilhões.',
+										'description' => '',
+										'start_date' => \Carbon\Carbon::parse('01-01-1855'),
+										'end_date' => \Carbon\Carbon::parse('31-12-1889'),
+										[
+											'item' => 150
+										],
+										[
+											'subserie-112.1' => [
+												'title' => 'Documentos referentes à arrematação de obras em pontes e pontilhões.',
+												'start_date' => \Carbon\Carbon::parse('01-01-1855'),
+												'end_date' => \Carbon\Carbon::parse('31-12-1888'),
+												[
+													'item' => 26
+												],
+											],
+											'subserie-112.2' => [
+												'title' => 'Documentos diversos referentes a obras em pontes e pontilhões.',
+												'start_date' => \Carbon\Carbon::parse('01-01-1855'),
+												'end_date' => \Carbon\Carbon::parse('31-12-1888'),
+												[
+													'item' => 32
+												],
+											],
+											'subserie-112.3' => [
+												'title' => 'Documentos referentes a orçamentos para execução de obras em pontes e pontilhões.',
+												'start_date' => \Carbon\Carbon::parse('01-01-1857'),
+												'end_date' => \Carbon\Carbon::parse('31-12-1887'),
+												[
+													'item' => 41
+												],
+											],
+											'subserie-112.4' => [
+												'title' => 'Documentos referentes a propostas de arrematação de obras em pontes e pontilhões.',
+												'start_date' => \Carbon\Carbon::parse('01-01-1857'),
+												'end_date' => \Carbon\Carbon::parse('31-12-1889'),
+												[
+													'item' => 51
+												],
+											],
+										]
+									],
+									'serie-113' => [
+										'title' => '.DOCUMENTOS referentes a obras de construção e reformas de ruas (nivelamentos,calçamentos,abertu-
+										ra ).',
+										'description' => '',
+										'start_date' => \Carbon\Carbon::parse('01-01-1854'),
+										'end_date' => \Carbon\Carbon::parse('31-12-1888'),
+										[
+											'item' => 100
+										],
+										[
+											'subserie-113.1' => [
+												'title' => 'Documentos referentes à arrematação de obras de construção e reforma de ruas.',
+												'start_date' => \Carbon\Carbon::parse('01-01-1854'),
+												'end_date' => \Carbon\Carbon::parse('31-12-1888'),
+												[
+													'item' => 29
+												],
+											],
+											'subserie-113.2' => [
+												'title' => 'Documentos referentes a orçamentos para a execução de obras de construção e reforma de ruas.',
+												'start_date' => \Carbon\Carbon::parse('01-01-1861'),
+												'end_date' => \Carbon\Carbon::parse('31-12-1882'),
+												[
+													'item' => 10
+												],
+											],
+											'subserie-113.3' => [
+												'title' => 'Documentos referentes a propostas (aceitas,recusadas,sem definição) de arrematação de obras de construção e reformas de ruas.',
+												'start_date' => \Carbon\Carbon::parse('01-01-1863'),
+												'end_date' => \Carbon\Carbon::parse('31-12-1888'),
+												[
+													'item' => 47
+												],
+											],
+											'subserie-113.4' => [
+												'title' => 'Documentos diversos referentes a obras de construção e reformas de ruas.',
+												'start_date' => \Carbon\Carbon::parse('01-01-1866'),
+												'end_date' => \Carbon\Carbon::parse('31-12-1880'),
+												[
+													'item' => 14
+												],
+											],
+										]
+									],
+									'serie-114' => [
+										'title' => 'DOCUMENTOS referentes a diversas obras públicas.',
+										'description' => '',
+										'start_date' => \Carbon\Carbon::parse('01-01-1861'),
+										'end_date' => \Carbon\Carbon::parse('31-12-1889'),
+										[
+											'item' => 52
+										],
+									],
+								]
+							],
+							'subsection-6' => [
+								'title' => 'ÓRGÃOS MUNICIPAIS',
+								[
+									'serie-115' => [
+										'title' => 'DOCUMENTOS referentes à Cadeia  Pública Municipal.',
+										'description' => '',
+										'start_date' => \Carbon\Carbon::parse('01-01-1854'),
+										'end_date' => \Carbon\Carbon::parse('31-12-1889'),
+										[
+											'item' => 105
+										],
+										[
+											'subserie-115.1' => [
+												'title' => 'Documentos do Carcereiro.',
+												'start_date' => \Carbon\Carbon::parse('01-01-1859'),
+												'end_date' => \Carbon\Carbon::parse('31-12-1887'),
+												[
+													'item' => 0
+												],
+											],
+											'subserie-115.2' => [
+												'title' => 'Correspondência enviada à Câmara por delegados de polícia referente ao sustento de presos pobres.',
+												'start_date' => \Carbon\Carbon::parse('01-01-1854'),
+												'end_date' => \Carbon\Carbon::parse('31-12-1889'),
+												[
+													'item' => 63
+												],
+											],
+											'subserie-115.3' => [
+												'title' => 'Correspondência de particulares à Câmara referente ao sustento de presos pobres.',
+												'start_date' => \Carbon\Carbon::parse('01-01-1859'),
+												'end_date' => \Carbon\Carbon::parse('31-12-1889'),
+												[
+													'item' => 34
+												],
+											],
+											'subserie-115.4' => [
+												'title' => 'Editais referentes a arrematação de alimentação de presos pobres.',
+												'start_date' => \Carbon\Carbon::parse('01-01-1866'),
+												'end_date' => \Carbon\Carbon::parse('31-12-1867'),
+												[
+													'item' => 3
+												],
+											],
+											'subserie-115.5' => [
+												'title' => 'Documentos referentes a propostas enviada por particulares à Câmara para a realização de serviços de água, iluminação e limpeza de cadeia.',
+												'start_date' => \Carbon\Carbon::parse('01-01-1878'),
+												'end_date' => \Carbon\Carbon::parse('31-12-1886'),
+												[
+													'item' => 10
+												],
+											],
+										]
+									],
+									'serie-116' => [
+										'title' => 'DOCUMENTOS referentes ao Cemitério Municipal.',
+										'description' => '',
+										'start_date' => \Carbon\Carbon::parse('01-01-1864'),
+										'end_date' => \Carbon\Carbon::parse('31-12-1889'),
+										[
+											'item' => 1736
+										],
+										[
+											'subseriie-116.1' => [
+												'title' => 'Documentos referentes ao Cemitério Municipal. Contém um livro com atestados e documentos sobre sepultamentos, convites para enterros e um regulamento de cemitérios públicos.',
+												'start_date' => \Carbon\Carbon::parse('01-01-1865'),
+												'end_date' => \Carbon\Carbon::parse('31-12-1888'),
+												[
+													'item' => 42
+												],
+											],
+											'subseriie-116.2' => [
+												'title' => 'Atestados de óbitos.',
+												'start_date' => \Carbon\Carbon::parse('01-01-1864'),
+												'end_date' => \Carbon\Carbon::parse('31-12-1889'),
+												[
+													'item' => 850
+												],
+											],
+											'subseriie-116.3' => [
+												'title' => 'Documentos referentes a sepultamentos no Cemitério Municipal.',
+												'start_date' => \Carbon\Carbon::parse('01-01-1864'),
+												'end_date' => \Carbon\Carbon::parse('31-12-1889'),
+												[
+													'item' => 770
+												],
+											],
+											'subseriie-116.4' => [
+												'title' => 'Relatórios feitos pelo Administrador do Cemitério Municipal referentes a sepultamentos.',
+												'start_date' => \Carbon\Carbon::parse('01-01-1865'),
+												'end_date' => \Carbon\Carbon::parse('31-12-1889'),
+												[
+													'item' => 74
+												],
+											],
+										]
+									],
+									'serie-117' => [
+										'title' => 'DOCUMENTOS referentes ao Curral do Conselho.',
+										'description' => '',
+										'start_date' => \Carbon\Carbon::parse('01-01-1863'),
+										'end_date' => \Carbon\Carbon::parse('31-12-1897'),
+										[
+											'item' => 20
+										],
+										[
+											'subserie-117.1' => [
+												'title' => 'Documentos diversos referentes ao Curral do Conselho. Contém um regulamento provisório do Curral.',
+												'start_date' => \Carbon\Carbon::parse('01-01-1863'),
+												'end_date' => \Carbon\Carbon::parse('31-12-1882'),
+												[
+													'item' => 19
+												],
+											],
+											'subserie-117.2' => [
+												'title' => 'Livro de registro das multas sobre animais que dão entrada e saída no Curral do Conselho. O livro está incompleto.',
+												'start_date' => \Carbon\Carbon::parse('01-01-1880'),
+												'end_date' => \Carbon\Carbon::parse('31-12-1897'),
+												[
+													'item' => 1
+												],
+											],
+										]
+									],
+									'serie-118' => [
+										'title' => 'DOCUMENTOS referentes ao Matadouro Municipal.',
+										'description' => '',
+										'start_date' => \Carbon\Carbon::parse('01-01-1863'),
+										'end_date' => \Carbon\Carbon::parse('31-12-1889'),
+										[
+											'item' => 33
+										],
+									],
+								]
+							],
+							'subsection-7' => [
+								'title' => 'PROCURADOR DA CÂMARA',
+								[
+									'serie-119' => [
+										'title' => 'CORRESPONDÊNCIA expedida pelo Procurador da Câmara de Juiz de Fora, tendo como destinatário o Presidente da Câmara.',
+										'description' => 'Contém uma carta para o Presidente da Câmara de São João Nepomuceno, datada de 1871. Há vários documentos sem data.',
+										'start_date' => \Carbon\Carbon::parse('01-01-1854'),
+										'end_date' => \Carbon\Carbon::parse('31-12-1889'),
+										[
+											'item' => 275
+										],
+									],
+									'serie-120' => [
+										'title' => 'CORRESPONDÊNCIA recebida pelo Procurador da Câmara de Juiz de Fora.',
+										'description' => '',
+										'start_date' => \Carbon\Carbon::parse('01-01-1854'),
+										'end_date' => \Carbon\Carbon::parse('31-12-1889'),
+										[
+											'item' => 111
+										],
+										[
+											'subserie-120.1' => [
+												'title' => 'Correspondência do Presidente e Secretario da Câmara ao Procurador.',
+												'start_date' => \Carbon\Carbon::parse('01-01-1854'),
+												'end_date' => \Carbon\Carbon::parse('31-12-1889'),
+												[
+													'item' => 47
+												],
+											],
+											'subserie-120.2' => [
+												'title' => 'Correspondência do Carcereiro ao Procurador, referente à Cadeia Pública.',
+												'start_date' => \Carbon\Carbon::parse('01-01-1864'),
+												'end_date' => \Carbon\Carbon::parse('31-12-1878'),
+												[
+													'item' => 20
+												],
+											],
+											'subserie-120.3' => [
+												'title' => 'Correspondência de diversos remetentes ao Procurador.',
+												'start_date' => \Carbon\Carbon::parse('01-01-1855'),
+												'end_date' => \Carbon\Carbon::parse('31-12-1886'),
+												[
+													'item' => 20
+												],
+											],
+											'subserie-120.4' => [
+												'title' => 'Correspondência do Escrivão de Paz ao Procurador. Contém uma carta do Juiz de Paz ao Procurador.',
+												'start_date' => \Carbon\Carbon::parse('01-01-1861'),
+												'end_date' => \Carbon\Carbon::parse('31-12-1888'),
+												[
+													'item' => 11
+												],
+											],
+											'subserie-120.5' => [
+												'title' => 'Correspondência do Fiscal e Agente Fiscal ao Procurador. Contém um mapa demonstrativo de multas impostos ao empresário da iluminação pública.',
+												'start_date' => \Carbon\Carbon::parse('01-01-1861'),
+												'end_date' => \Carbon\Carbon::parse('31-12-1888'),
+												[
+													'item' => 13
+												],
+											],
+										]
+									],
+									'serie-121' => [
+										'title' => 'DOCUMENTOS diversos do Procurador.',
+										'description' => 'Contém cartas enviadas pelo Delegado de Polícia, Escrivão do Juri, Vigário, Tabelião e outros
+										remetentes.',
+										'start_date' => \Carbon\Carbon::parse('01-01-1868'),
+										'end_date' => \Carbon\Carbon::parse('31-12-1889'),
+										[
+											'item' => 7
+										],
+									],
+								]
+							],
+							'subsection-8' => [
 								'title' => 'SECRETARIA DA CÂMARA',
 								[
 									'serie-122' => [
@@ -1087,8 +2300,7 @@ class InventarioSumarioDaCamaraMunicipalnoImperioSeeder extends Seeder
 												[
 													'item' => 12,
 												],
-											]
-											,
+											],
 											'subserie-128.4' => [
 												'title' => 'Requerimentos contendo reclamações referentes a licenças para abertura de negócios e exercícios de profissões',
 												'start_date' => \Carbon\Carbon::parse('01-01-1858'),
@@ -1096,8 +2308,7 @@ class InventarioSumarioDaCamaraMunicipalnoImperioSeeder extends Seeder
 												[
 													'item' => 7,
 												],
-											]
-											,
+											],
 											'subserie-128.5' => [
 												'title' => 'Requerimentos solicitando licenças diversas.',
 												'start_date' => \Carbon\Carbon::parse('01-01-1868'),
@@ -1105,8 +2316,7 @@ class InventarioSumarioDaCamaraMunicipalnoImperioSeeder extends Seeder
 												[
 													'item' => 17,
 												],
-											]
-											,
+											],
 											'subserie-128.6' => [
 												'title' => 'Requerimentos solicitando licença para a execução de obras por particulares',
 												'start_date' => \Carbon\Carbon::parse('01-01-1860'),
@@ -1114,8 +2324,7 @@ class InventarioSumarioDaCamaraMunicipalnoImperioSeeder extends Seeder
 												[
 													'item' => 47,
 												],
-											]
-											,
+											],
 											'subserie-128.7' => [
 												'title' => 'Requerimentos solicitando licença para conduzir veículos.',
 												'start_date' => \Carbon\Carbon::parse('01-01-1870'),
@@ -1207,7 +2416,7 @@ class InventarioSumarioDaCamaraMunicipalnoImperioSeeder extends Seeder
 									]
 								]
 							],
-							'subsection-2' => [
+							'subsection-9' => [
 								'title' => 'Governo Imperial',
 								[
 									'serie-124' => [
@@ -1258,7 +2467,7 @@ class InventarioSumarioDaCamaraMunicipalnoImperioSeeder extends Seeder
 								]
 							],
 
-							'subsection-2' => [
+							'subsection-10' => [
 								'title' => 'Requerimentos',
 								[
 									'serie-134' => [
@@ -1360,7 +2569,7 @@ class InventarioSumarioDaCamaraMunicipalnoImperioSeeder extends Seeder
 					'section-3' => [
 						'title' => 'COMISSÕES DA CÂMARA DE VEREADORES',
 						[
-							'subsection-3' => [
+							'subsection-11' => [
 								'title' => 'COMISSÕES DA CÂMARA DE VEREADORES',
 								[
 									'serie-139' => [
@@ -1594,7 +2803,7 @@ class InventarioSumarioDaCamaraMunicipalnoImperioSeeder extends Seeder
 									],
 								]
 							],
-							'subsection-4' => [
+							'subsection-12' => [
 								'title' => 'INDICAÇÕES APRESENTADAS EM SESSÕES DA CÂMARA',
 								[
 									'serie-147' => [
@@ -1711,7 +2920,7 @@ class InventarioSumarioDaCamaraMunicipalnoImperioSeeder extends Seeder
 									],
 								]
 							],
-							'subsection-5' => [
+							'subsection-13' => [
 								'title' => 'REQUERIMENTOS E PROPOSTAS DE VEREADORES',
 								[
 									'serie-161' => [
@@ -1780,7 +2989,7 @@ class InventarioSumarioDaCamaraMunicipalnoImperioSeeder extends Seeder
 									],
 								]
 							],
-							'subsection-6' => [
+							'subsection-14' => [
 								'title' => 'OUTROS DOCUMENTOS DE VEREADORES',
 								[
 									'serie-163' => [
@@ -2028,7 +3237,5 @@ class InventarioSumarioDaCamaraMunicipalnoImperioSeeder extends Seeder
 				$archiveEntity->save();
 			}
 		}
-
 	}
-
 }
